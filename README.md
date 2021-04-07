@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  Welcome to the Move.it project repository!
+</h1>
 
-## Getting Started
+<p align="center"> Application developed in the fourth edition of Rocketseat Next Level Week 💻🚀 </p>
 
-First, run the development server:
+<h1 align="center">
+<div style="display: flex; flex-direction: row;">
+  <img width="400" style="border-radius: 10px" height="auto" alt="level.up" title="Level Up" src="public/assets/count.png" />
+  <img width="400" style="border-radius: 10px" height="auto" alt="level.up" title="Level Up" src="public/assets/home.png" />
+  <div>
+  <div style="display: flex; flex-direction: row;">
+  <img width="400" style="border-radius: 10px" height="auto" alt="level.up" title="Level Up" src="public/assets/challenge.png" />
+  <img width="400" style="border-radius: 10px" height="auto" alt="level.up" title="Level Up" src="public/assets/levelUp.png" />
+  <div>
+</h1>
 
-```bash
-npm run dev
-# or
-yarn dev
+---
+
+## Objective
+
+Track your time, be more productive and take care of your health. [Move.it](https://moveit-igorln.vercel.app/) was developed for time management, as in the pomodoro technique, dividing the work into 25 minute periods. After that time it releases a challenge, which is some stretching for the body or exercise for the eyes. Each challenge has its xp points and, accumulating the points you level up.
+
+---
+
+## Technologies
+
+The following tools were used in the construction of the project:
+
+- [ReactJS](https://reactjs.org)
+- [NextJS](https://nextjs.org)
+- [Yarn](https://yarnpkg.com/)
+- [VSCode](https://code.visualstudio.com)
+- [Git Bash](https://gitforwindows.org/)
+
+---
+
+## Installation of the project locally
+
+After each of the steps, there will be an example of the command to be typed to do what is being asked, if you have difficulties and the example is not enough, do not hesitate to contact me at _igorln96@gmail.com_.
+
+1. Open the terminal and create a directory in the location of your choice with the command **mkdir**:
+``` javascript
+   mkdir projects-igorln
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Enter the directory you just created and then clone the project:
+``` javascript
+   cd projects-igorln
+   git clone git@github.com:igorln/move-it.git
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+3. Access the project directory and then use the command **yarn** to install all necessary dependencies:
+``` javascript
+   cd move-it
+   yarn
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Finally, run the command **yarn dev** and access the project via browser, in the path `http://localhost:3000`.
